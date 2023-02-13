@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Mini Project</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            *{
+                padding: 0;
+                margin: 0;
+                box-sizing: border-box;
+                font-size: 1.5rem;
+                height: 100vh;
+            }
+
+            body{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: 25px 0 25px 0;
+            }
+
+            ul{
+                list-style: none;
+                width: 500px;
+                display: flex;
+                flex-direction: column;
+                border: 3px black solid;
+                border-radius: 10px 10px 0 0;
+            }
+
+            ul li{
+                border-top: 3px black solid;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            li:hover,
+            li:focus{
+                background-color: rgb(52, 52, 52);
+                color: white;
+                transition: 0.1s ease-in-out;
+            }
+
+            .header{
+                font-weight: bold;
+                font-size: 2rem;
+                background-color: yellow;
+                border-radius : 10px 10px 0 0;
+                border: none;
+
+            }
+        </style>
+    </head>
+    <body>
+        <ul>
+            <li class="header">CSS Menu</li>
+            <li>Appetizers</li>
+            <li>Entrees</li>
+            <li>Desserts</li>
+            <li>Beverages</li>
+            <li>About</li>
+        </ul>
+    </body>
+</html>

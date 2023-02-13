@@ -1,0 +1,17 @@
+:root { 
+    --bg-color: #E9E9E9
+}
+
+html{
+    background-color: var(--bg-color);
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+.grid1 img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    display: inline-block;
+}
